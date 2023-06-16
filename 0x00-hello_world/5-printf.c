@@ -6,6 +6,6 @@ int main(void)
  *
  * assmble 0 (dhgd)
  */
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return(0);
 }
