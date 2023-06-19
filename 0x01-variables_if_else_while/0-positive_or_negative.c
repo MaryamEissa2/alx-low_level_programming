@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - Entary
- * Description: positive or negative checker
+/**
+ * main - Determines if n is positive or negative
+ * Description: find if a number is positive or negative
+ * aand it is the first tmie to write a description
  * Return: 0 always
  */
 int main(void)
