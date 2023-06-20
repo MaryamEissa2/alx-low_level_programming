@@ -6,11 +6,13 @@
  */
 int main(void)
 {
-	char ch = 'a';
+	char ch[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-	for (ch = 'a'; ch <= 'Z' ; ch++)
+	int x;
+
+	for (x = 0; x < 52 ; x++)
 	{
-		putchar(ch);
+		putchar(ch[x]);
 	}
 	putchar('\n');
 	return (0);
