@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints 10 times the alphabet
+ * print_alphabet - prints 10 times the alphabet
  * Description: create a loop to disp alphabitc letters
  * ans then print then
  * Return : no return value
