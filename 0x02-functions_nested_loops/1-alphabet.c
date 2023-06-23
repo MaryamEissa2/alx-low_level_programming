@@ -5,7 +5,6 @@
  * ans then print then
  * Return : no return value
  */
-
 void print_alphabet(void)
 {
 	char letter;
