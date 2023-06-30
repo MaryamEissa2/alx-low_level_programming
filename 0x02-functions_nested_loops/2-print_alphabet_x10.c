@@ -3,23 +3,23 @@
  * print_alphabet_x10 - func that prints 10 times the alphabet
  * Description: unction that prints 10 times the alphabet
  * and write in 3 soures
- * Reuturn: return nothing
  */
 void print_alphabet_x10(void)
 {
-	char ch = 'a';
-
+	char ch;
 	int i;
 
-	for (i = 0; i < 10; i++)
-	{
+	i = 0;
 
-	for (ch = 'a'; ch < 'z'; ch++)
+	while (i < 10)
 	{
-		_putchar(ch);
-	}
-
-	_putchar('\n');
-	ch = 'a';
+		ch = 'a';
+		while (ch <= 'z')
+		{
+			_putchar(ch);
+			ch++;
+		}
+		_putchar('\n');
+		i++;
 	}
 }
